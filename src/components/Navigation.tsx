@@ -28,6 +28,7 @@ const Navigation = () => {
     { label: 'Features', id: 'features', type: 'scroll' },
     { label: 'Framework', id: 'tech', type: 'scroll' },
     { label: 'ZNE', id: '/zne', type: 'link' },
+    { label: 'Benchmark', id: '/benchmark', type: 'link' },
   ];
 
   return (
