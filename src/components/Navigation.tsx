@@ -25,10 +25,10 @@ const Navigation = () => {
 
   const navLinks = [
     { label: 'Simulator', id: 'simulator', type: 'scroll' },
-    { label: 'Features', id: 'features', type: 'scroll' },
     { label: 'ZNE', id: '/zne', type: 'link' },
     { label: 'Benchmark', id: '/benchmark', type: 'link' },
-    { label: 'Noise Models', id: '/noise-models', type: 'link' },
+    { label: 'Noise', id: '/noise-models', type: 'link' },
+    { label: 'Bloch', id: '/bloch-sphere', type: 'link' },
   ];
 
   return (
