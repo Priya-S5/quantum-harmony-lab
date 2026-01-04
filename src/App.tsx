@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import ZNE from "./pages/ZNE";
 import AlgorithmBenchmark from "./pages/AlgorithmBenchmark";
 import NoiseModels from "./pages/NoiseModels";
+import BlochSpherePage from "./pages/BlochSphere";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/zne" element={<ZNE />} />
             <Route path="/benchmark" element={<AlgorithmBenchmark />} />
             <Route path="/noise-models" element={<NoiseModels />} />
+            <Route path="/bloch-sphere" element={<BlochSpherePage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
