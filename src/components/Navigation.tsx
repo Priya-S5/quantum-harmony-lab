@@ -26,9 +26,9 @@ const Navigation = () => {
   const navLinks = [
     { label: 'Simulator', id: 'simulator', type: 'scroll' },
     { label: 'Features', id: 'features', type: 'scroll' },
-    { label: 'Framework', id: 'tech', type: 'scroll' },
     { label: 'ZNE', id: '/zne', type: 'link' },
     { label: 'Benchmark', id: '/benchmark', type: 'link' },
+    { label: 'Noise Models', id: '/noise-models', type: 'link' },
   ];
 
   return (
