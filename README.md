@@ -1,16 +1,16 @@
 ## Project info
 
-**URL**: (https://quantumnoise.lovable.app/)
+**URL**: [Quantum Noise Ignia.io](https://quantumnoise.lovable.app/)
 
 **Use Lovable**
 
-Simply visit the (https://quantumnoise.lovable.app/) and start prompting.
+Simply visit the [Quantum Noise Ignia.io](https://quantumnoise.lovable.app/) and start prompting.
 
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - (https://quantumnoise.lovable.app/)
+The only requirement is having Node.js & npm installed - [Quantum Noise Ignia.io](https://quantumnoise.lovable.app/)
 
 **Use GitHub Codespaces**
 
@@ -30,4 +30,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-[Lovable](https://quantumnoise.lovable.app/) 
+[Quantum Noise Ignia.io](https://quantumnoise.lovable.app/) 
