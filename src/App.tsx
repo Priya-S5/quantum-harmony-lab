@@ -9,6 +9,10 @@ import ZNE from "./pages/ZNE";
 import AlgorithmBenchmark from "./pages/AlgorithmBenchmark";
 import NoiseModels from "./pages/NoiseModels";
 import BlochSpherePage from "./pages/BlochSphere";
+import CircuitVisualizer from "./pages/CircuitVisualizer";
+import GatePlayground from "./pages/GatePlayground";
+import GateTutorial from "./pages/GateTutorial";
+import ErrorControl from "./pages/ErrorControl";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +30,10 @@ const App = () => (
             <Route path="/benchmark" element={<AlgorithmBenchmark />} />
             <Route path="/noise-models" element={<NoiseModels />} />
             <Route path="/bloch-sphere" element={<BlochSpherePage />} />
+            <Route path="/circuit" element={<CircuitVisualizer />} />
+            <Route path="/playground" element={<GatePlayground />} />
+            <Route path="/tutorial" element={<GateTutorial />} />
+            <Route path="/error-control" element={<ErrorControl />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
