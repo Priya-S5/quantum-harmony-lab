@@ -43,6 +43,7 @@ const Navigation = () => {
     { label: 'Error Control', id: '/error-control', type: 'link' },
     { label: 'Bloch', id: '/bloch-sphere', type: 'link' },
     { label: 'More', id: 'more', type: 'dropdown', items: [
+      { label: 'Data Analysis', id: '/data-analysis' },
       { label: 'ZNE', id: '/zne' },
       { label: 'Benchmark', id: '/benchmark' },
       { label: 'Noise Models', id: '/noise-models' },

@@ -13,6 +13,7 @@ import CircuitVisualizer from "./pages/CircuitVisualizer";
 import GatePlayground from "./pages/GatePlayground";
 import GateTutorial from "./pages/GateTutorial";
 import ErrorControl from "./pages/ErrorControl";
+import DataAnalysis from "./pages/DataAnalysis";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/playground" element={<GatePlayground />} />
             <Route path="/tutorial" element={<GateTutorial />} />
             <Route path="/error-control" element={<ErrorControl />} />
+            <Route path="/data-analysis" element={<DataAnalysis />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
