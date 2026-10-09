@@ -15,6 +15,11 @@ import GateTutorial from "./pages/GateTutorial";
 import ErrorControl from "./pages/ErrorControl";
 import DataAnalysis from "./pages/DataAnalysis";
 import NotFound from "./pages/NotFound";
+import PEC from "./pages/PEC";
+import ReadoutMitigation from "./pages/ReadoutMitigation";
+import RandomizedBenchmarking from "./pages/RandomizedBenchmarking";
+import ProcessTomography from "./pages/ProcessTomography";
+import HardwareTopology from "./pages/HardwareTopology";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +41,11 @@ const App = () => (
             <Route path="/tutorial" element={<GateTutorial />} />
             <Route path="/error-control" element={<ErrorControl />} />
             <Route path="/data-analysis" element={<DataAnalysis />} />
+            <Route path="/pec" element={<PEC />} />
+            <Route path="/readout-mitigation" element={<ReadoutMitigation />} />
+            <Route path="/randomized-benchmarking" element={<RandomizedBenchmarking />} />
+            <Route path="/process-tomography" element={<ProcessTomography />} />
+            <Route path="/hardware-topology" element={<HardwareTopology />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
