@@ -47,6 +47,11 @@ const Navigation = () => {
       { label: 'ZNE', id: '/zne' },
       { label: 'Benchmark', id: '/benchmark' },
       { label: 'Noise Models', id: '/noise-models' },
+      { label: 'PEC', id: '/pec' },
+      { label: 'Readout Mitigation (M3)', id: '/readout-mitigation' },
+      { label: 'Randomized Benchmarking', id: '/randomized-benchmarking' },
+      { label: 'Process Tomography', id: '/process-tomography' },
+      { label: 'Hardware Topology', id: '/hardware-topology' },
     ]},
   ];
 
